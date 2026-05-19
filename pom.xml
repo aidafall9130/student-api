@@ -58,7 +58,7 @@
             </plugin>
 
             <!-- JaCoCo : couverture de code (seuil 70 %) -->
-            <plugin>
+           
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
@@ -72,6 +72,7 @@
                     </execution>
                 </executions>
             </plugin>
+             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>0.8.11</version>
